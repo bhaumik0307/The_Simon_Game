@@ -51,3 +51,18 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
+@media screen and (max-width: 1100px){
+  .container{
+    width: 100%;
+    display: block;
+    margin-top: 500px;
+  }
+  .btn{
+    width: 340px;
+    height: 340px;
+  }
+  #level-title{
+    font-size: 6rem;
+  }
+}

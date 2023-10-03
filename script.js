@@ -13,6 +13,12 @@ $(document).keypress(function () {
         started = true;
     }
 });
+$(document).click(function () {
+    if (!started) {
+        nextSequence();
+        started = true;
+    }
+})
 $(".btn").click(function(){
     var color=$(this).attr("id");
     userPattern.push(color);
